@@ -80,6 +80,21 @@ footer{
 .right{
     padding-right: 20%;
 }
-span{
+#orange{
     color: orange;
+}
+#gray{
+    color: gray;
+}
+#white{
+    color: white;
+}
+#positon{
+    padding-top: 25px;
+    margin-bottom: 2px;
+}
+#last{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 40px;
 }
