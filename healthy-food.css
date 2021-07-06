@@ -65,7 +65,7 @@ h3,h2{
     display: flex;
     
 }
-footer{
+.below{
     width: 80%;
     display: flex;
     -ms-flex-direction: row wrap;
