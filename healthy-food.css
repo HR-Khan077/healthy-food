@@ -1,6 +1,7 @@
 body{
     font-family: 'poppins', sans-serif;
     
+    
     margin: 0;
 }
 h1{
@@ -9,20 +10,22 @@ h1{
 .emphasize{
     color: coral;
 }
+
 .divide-inside{
     display: flex;
     margin-bottom: 100px;
 }
 .for-background{
     background-image:url(images/shapes/new.png);
-    background-position: right;
+    margin-bottom: 1px;
+    
     background-repeat: no-repeat;
 }
 
 .for-photo{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-position: right;
+    
     
 }
 .half-width{
@@ -55,10 +58,28 @@ h1{
     height: 50%;
     width: 100%;
 }
-h3{
+h3,h2{
     font-weight: 700;
 }
 .flex-container{
     display: flex;
     
+}
+footer{
+    width: 80%;
+    display: flex;
+    -ms-flex-direction: row wrap;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px rgb(231, 222, 222);
+    margin: 5%;
+    padding: %;
+}
+.abc{
+    padding-left: 20%;
+}
+.right{
+    padding-right: 20%;
+}
+span{
+    color: orange;
 }
